@@ -35,3 +35,8 @@ En caso de que te quede corto el ejercicio siguele con esto!
 
 ## El 4 de Marzo se subirá el Form para que entreguen las prácticas. 
 ***¡Vámonos hasta el espacio y más allá Explorers!***
+
+-----------
+## Capturas de pantalla de lo logrado
+![Principal](f1.png)
+![Pedidos](f2.png)
