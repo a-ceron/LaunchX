@@ -1,0 +1,65 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+header {
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	background:#252932;
+}
+header img {
+    display:inline-block;
+    height:300px;
+    margin: 0 auto;
+    margin-left: 40%;
+    
+}
+p{
+    text-align: justify;
+}
+h1{
+    color: aliceblue;
+}
+footer {
+    text-align: center;
+    background-color: #252932;
+    position: inherit;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    color: white;
+  }
+footer p{
+    text-align: center;
+    font: 500 100%/1.5 system-ui;
+}
+
+.parent {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+.child {
+    gap: 1rem;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font: 500 100%/1.5 system-ui;
+  }
+.table{
+    text-align: center;
+    margin-left: 35%;
+}
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-i91w{background-color:#329a9d;text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-m9r4{background-color:#ffffc7;text-align:left;vertical-align:top}
