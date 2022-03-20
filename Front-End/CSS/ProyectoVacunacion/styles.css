@@ -1,0 +1,418 @@
+body{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 14px;
+    color: #575555;
+    margin: auto;
+    text-align: center;
+    max-width: 1400px;
+}
+header{
+    width: 100%;
+    height: 90px;
+    box-sizing: border-box; /* Respeta los límites de la pantalla */
+    display: block;
+    position:fixed;
+    top: 0px;/* Para evitar que el header se vea mal  */
+    background-color: white;
+    opacity: 0.8;
+    padding: 10px 30px;
+    z-index: 1;
+}
+header h1{
+    float: left;
+    padding-left: 10px;
+    margin-top: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: #575555;
+}
+input, select{
+    border: 0;
+}
+
+footer{
+    background-color: #d4e2f5;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 32px;
+}
+.footer-upper{
+    width: 100%;
+    display: inline-flex;
+}
+.footer-left{
+    width: 50%;
+    float: left;
+    padding-left: 30px;
+    padding-right: 50%;
+}
+.footer-left h3{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.footer-right p{
+    margin: 5px;
+}
+.footer-right{
+    display: inline-flex;
+    width: 50%;
+}
+
+.footer-lower{
+    width: 100%;
+    margin-top: 50px;
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+
+.navigation{
+    float: right;
+    align-items: center;
+}
+
+.navigation a{
+    display: flex;
+    float: left;
+    padding: 12px 20px;
+}
+
+.inicio{
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    box-sizing: border-box;  /*Mantenerse en el tamaño del contenedor*/
+}
+.inicio-info{
+    width: 50%;
+    margin-top: 120px;
+    padding: 0px 128px 150px 64px;
+    text-align: left;
+}
+.inicio-info h1{
+    font-size: 42px;
+}
+.inicio-info p{
+    text-align: justify;
+}
+.inicio-info ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.text-bold{
+    padding: 0px 15px;
+}
+.text-bold span{
+    font-size: 12px;
+    font-weight: 900;
+    padding-left: 5px;
+}
+
+.text-thin{
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 5px;
+}
+.input-form{
+    float: left;
+    text-align: left;
+    margin-right: 100px;
+}
+.input-label{
+    margin-bottom: 10px;
+}
+
+.info-under{
+    padding-bottom: 150px;
+}
+
+.info-over{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255,0.8);
+    position: absolute;
+    bottom: 100px;
+    padding: 0px 128px 0px 54px;
+    text-align: left;
+}
+.over-reg{
+    background-color: rgb(255, 255, 255,0.8);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.inicio-img{
+    width: 50%;
+}
+.inicio-img img{
+    width: 100%;
+    height: 100%; /* Para que tome todo el alto */
+    object-fit: cover; /*Para cubrir todo el espacio sin deformar la imagen*/
+}
+
+
+.button-blue{
+    background-color: #0e4fa5;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+    border: 0px;
+}
+
+.button-blue:hover{
+    cursor: pointer;
+    background-color: #2c7ae0d0;
+}
+
+.brand{
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.mision{
+    text-align: left;
+    width: 100%;
+    padding-left: 64px ;
+}
+.mision-upper{
+    padding-right: 65%;   
+    padding-bottom: 50px;
+}
+.mision-upper h1{
+    font-weight: 900;
+    font-size: 32px;
+}
+.mision-upper p{
+    font-weight: 400;
+}
+
+.mision-lower{
+    display: inline-flex;
+}
+.lower-card{
+    border: 1px solid whitesmoke;
+    margin-left: 20px;
+    height: 350px;
+    width: 300px;
+    padding-left: 25px;
+    padding-right: 50px;
+    padding-top: 30px;
+    box-sizing: border-box;
+
+    
+}
+.card-box{
+    background-color: rgba(187, 190, 226, 0.8);
+    border: 1px solid white;
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+    position: relative;
+}
+.card-box i{
+    position: absolute;
+    /* Para centrar los elementos del div */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.card-info h3{
+    font-size: 18px;
+    font-weight: 900;
+}
+.card-info p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.vacunate{
+    display: inline-flex;
+    margin-top: 50px;
+    box-sizing: border-box;
+    text-align: left;
+    height: 120vh;
+}
+.vacunate-info{
+    width: 50%;
+}
+.vacunate-img{
+    width: 50%;
+}
+.vacunate-img img{
+    width: 100%;
+    height: 100%; /* Para que tome todo el alto */
+    object-fit: cover; /*Para cubrir todo el espacio sin deformar la imagen*/
+}
+.info-text{
+    margin: 25px 100px 100px 50px;
+}
+.info-text h3{
+    font-size: 25px;
+    font-weight: 900;
+}
+.info-text p{
+    font-weight: 400;
+}
+
+.info-cards{
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+.card-info{
+    padding: 10px 20px;
+    float: left;
+    width: 100%;
+}
+.card-header{
+    display: inline-flex;
+    align-items: center;
+}
+.card-header h4{
+    margin-left: 15px;
+    margin-right: 100px;
+}
+.header-big-logo{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(187, 190, 226, 0.8);
+    border: 1px solid white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.header-big-logo i{
+    position: absolute;
+    /* Para centrar los elementos del div */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.header-small-logo{
+    width: 15px;
+    height: 15px;
+    background-color: rgba(187, 190, 226, 0.8);
+    border: 1px solid white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.header-small-logo i{
+    position: absolute;
+    /* Para centrar los elementos del div */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.informate{
+    display: inline-flex;
+    margin-top: 100px;
+    box-sizing: border-box;
+    text-align: left;
+    height: auto;
+    padding-bottom: 80px;
+}
+.informate-info{
+    width: 50%;
+}
+.informate-img{
+    width: 50%;
+    height: 100%; 
+}
+
+.informate-img img{
+    width: 100%;
+    height: 100%; /* Para que tome todo el alto */
+    object-fit: cover; /*Para cubrir todo el espacio sin deformar la imagen*/
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+
+  }
+  .active .header-small-logo{
+      transform: rotate(180deg);
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+
+  .informate-cards{
+      margin:auto;
+      width: 100%;
+      justify-content: space-between;
+      padding: 24px 10px;
+      box-sizing: border-boxs;
+  }
+
+.card-contact{
+    float: left;
+    width: 40%;
+    margin: auto;
+    border: 1px solid whitesmoke;
+    align-items: center;
+    text-align: center;   
+    padding: 24px;
+  }
+.contact-info{
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.header-contact{
+    padding-left: 10px;
+    
+}
+.header-contact h5,p{
+    margin: 0;
+    padding-top: 5px;
+    text-align: left;
+}
+.header-contact p{
+    font-size: 10px;
+}
+.contact-botton button{
+    background-color: #c7d7ec;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: #0e4fa5;
+    font-weight: 600;
+    border: 0px;   
+}
+.contact-botton:hover button{
+    cursor: pointer;
+    background-color: #0e4fa5;
+    color: #c7d7ec;
+}
+.info-infor{
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.list-card{
+    margin: 20px 10px;
+}
+.list-card ul{
+    list-style: none;
+    padding: 0;
+}
