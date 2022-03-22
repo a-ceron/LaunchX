@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <!-- Aquí empieza el código para hacer un pokedex -->
+    <section class="cont-pokedex">
+        <div class="left-panel">
+            <div class="left-panel-upper">
+                <div class="left-cont-button-circle">
+                    <div class="circle-bg-blue"></div>
+                </div>
+                <div class="left-cont-buttons-circle">
+                    <div class="circle-sm-yellow"></div>
+                    <div class="circle-sm-green"></div>
+                </div>
+            </div>
+            <div class="left-panel-lower">
+                <div class="panel-lower-display">
+                    <div class="display-content">
+                        <div class="content-buttons">
+                            <div class="circle-sm-red"></div>
+                            <div class="circle-sm-red"></div>
+                        </div>
+                        <div class="display-pokemon">
+                            <img class="img-pokemon" src="./img/481px-Pokebola-pokeball-png-0.png" alt="imgPokemon" id="pokeImage" width="100px" height="100px">
+                            <p id="namPokemon"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-lower-icons">
+                    <div class="icons-upper">
+                        <div class="left-line-red"></div>
+                        <div class="rigth-line-blue"></div>
+                    </div>
+                    <div class="icons-lower">
+                        <div class="lower-buttons">
+                            <div class="circle-sm-red"></div>
+                            <div class="circle-sm-red"></div>
+                        </div>
+                        <div class="box-md-green">
+                            <input type="text" id="pokeName" name="pokeName" onkeyup="imprimir()">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rigth-panel">
+            <div class="rigth-panel-upper"></div>
+            <div class="rigth-panel-lower">
+                <div class="description-box">
+                    <div class="description-text" id='pokeDetails'></div>
+                    <div class="movimientos-grid">
+                        <div class="movimiento">
+                            <h5 id="label0"></h5>
+                            <p id="nivel0"></p>
+                        </div>
+                        <div class="movimiento">
+                            <h5 id="label1"></h5>
+                            <p id="nivel1"></p>
+                        </div>
+                        <div class="movimiento">
+                            <h5 id="label2"></h5>
+                            <p id="nivel2"></p>
+                        </div>
+                        <div class="movimiento">
+                            <h5 id="label3"></h5>
+                            <p id="nivel3"></p>
+                        </div>
+                        <div class="movimiento">
+                            <h5 id="label4"></h5>
+                            <p id="nivel4"></p>
+                        </div>
+                        <div class="movimiento">
+                            <h5 id="label5"></h5>
+                            <p id="nivel5"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                </div>
+                <div class="inline-bottons">
+                    <div class="circle-buttons">
+                        <div class="circle-sm-red"></div>
+                        <div class="circle-sm-red"></div>
+                    </div>
+                    <div class="line-buttons">
+                        <div class="left-line-gray"></div>
+                        <div class="left-line-gray"></div>
+                    </div>
+                </div>
+                <div class="interactive-buttons">
+                    <div class="pass-buttons">
+                        <div class="rect-button" ></div>
+                        <div class="rect-button"></div>
+                    </div>
+                    <div class="evolution-button">
+                        <div class="circle-md-button"></div>
+                    </div>
+                </div>
+                <div class="non-interactive-buttons">
+                    <div class="box-md-white">
+                        <p id="pokePeso"></p>
+                    </div>
+                    <div class="box-md-white" >
+                        <p id="pokeAltura"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- rigth panel -->
+    <!-- Aquí termina el código para hacer un pokedex -->
+    
+    <br>
+    
+</body>
+</html>

@@ -1,0 +1,247 @@
+body{
+    margin: 0;
+    font-family: monospace;
+    font-size: 14px;
+}
+input{
+    border: 0;
+    background-color: transparent;
+}
+:root{
+    --bg-color: rgba(189, 5, 5, 0.808);
+}
+
+.cont-pokedex{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    
+}
+.left-panel{
+    width: 50%;
+    background-color: var(--bg-color);
+    border-right: 2px solid black;
+}
+.left-panel-upper{
+    display: inline-flex;
+    /* background-color: red; */
+    background-image: url("img/banner.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.left-cont-button-circle{
+    padding: 10px 15px;
+}
+.circle-bg-blue{
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+    border-radius: 50%;
+}
+.circle-sm-green{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+}
+.circle-sm-yellow{
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.content-buttons{
+    display: inline-flex;
+    align-items: center;
+    padding-left: 50%;
+    margin: auto;
+}
+.circle-sm-red{
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.left-cont-buttons-circle{
+    margin: 5px;
+    margin-left: 55px;
+    display: flex;
+}
+.left-panel-lower{
+    width: 100%;
+    height: 100%;
+}
+.panel-lower-display{
+    align-items: center;
+    margin: auto;
+    padding-left: 15%;
+    padding-top: 25px;
+}
+.display-content{
+    background-color: beige;
+    width: 400px;
+    height: 170px;
+    display: inline-block;
+}
+.display-pokemon{
+    margin-top: 10px;
+    margin-left: 7%;
+    height: 120px;
+    width: 350px;
+    background-color: black;
+}
+.display-content p{
+    align-items: center;
+    margin: 0px 0px 0px 130px;
+}
+.img-pokemon{
+    align-items: center;
+    margin: auto;
+    padding: 3% 35%;   
+}
+.icons-upper{
+    align-items: center;
+    display: inline-flex;
+    margin-left: 25%;
+    margin-top: 40px;
+}
+.left-line-red{
+    width: 70px;
+    height: 8px;
+    background-color: red;
+}
+.left-line-gray{
+    width: 70px;
+    height: 8px;
+    background-color: gray;
+}
+.rigth-line-blue{
+    width: 70px;
+    height: 8px;
+    background-color: blue;
+    margin-left: 100px;
+}
+.icons-lower{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+.lower-buttons{
+    display: inline-flex;
+    margin-left: 55px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.box-md-green{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    margin-left: 70px;
+}
+.box-md-green input{
+    margin: auto;
+    margin-left: 45px;
+    margin-top: 15px;
+    color: aliceblue;
+}
+.rigth-panel{
+    width: 50%;
+    background-color: var(--bg-color);
+}
+.rigth-panel-upper{
+    background-image: url("img/banner_b.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 16%;
+}
+.rigth-panel-lower{
+    display: inline-block;
+    margin-left: 17%;
+}
+.description-box{
+    border: 1px solid coral;
+    background-color: green;
+    width: 400px;
+    height: 180px;
+    margin: auto;
+    align-items: center;
+    color: bisque;
+}
+.movimientos-grid{
+    display: inline-flex;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+.inline-bottons{
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+.circle-buttons{
+    display: inline-flex;
+}
+.line-buttons{
+    display: inline-flex;
+    margin-left: 200px;
+}
+.line-buttons div{
+    margin-left: 20px;
+}
+.interactive-buttons{
+ padding-top: 30px;   
+}
+.pass-buttons{
+    display: inline-flex;
+}
+.rect-button{
+    border: 1px solid black;
+    width: 50px;
+    height: 20px;
+    background-color: beige;
+}
+.evolution-button{
+float: right;
+}
+.circle-md-button{
+    width: 20px;
+    height: 20px;
+    background-color: greenyellow;
+    border-radius: 50%;   
+}
+.non-interactive-buttons{
+display: inline-flex;
+}
+.box-md-white{
+    border: 1px solid black;
+    height: 40px;
+    width: 150px;
+    background-color: bisque;
+    margin-left: 38px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.box-md-white p{
+    margin-left: 27px;
+}
+.movimiento{
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+}
